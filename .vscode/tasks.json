@@ -1,0 +1,19 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "shell",
+      "command": "go build -o ./dist/",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": [],
+      "label": "Build to ./dist/",
+      "detail": "Build Go executable to ./dist/ folder",
+      "presentation": {
+        "close": true
+      }
+    }
+  ]
+}
